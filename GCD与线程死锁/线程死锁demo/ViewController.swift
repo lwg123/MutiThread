@@ -45,8 +45,8 @@ class ViewController: UIViewController {
         //queuesWithQoS()
         //concurrentQueues()
         //queueWithDelay()
-        fetchImage()
-        //useWorkItem()
+        //fetchImage()
+        useWorkItem()
         
         if let queue = inactiveQueue {
             queue.activate()
